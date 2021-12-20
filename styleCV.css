@@ -1,0 +1,128 @@
+body{
+    width: 950px;
+    margin: auto;
+    background-color: gray;
+    font-family: roboto;
+    font-size: 14px;
+}
+#h1{
+    position: relative;
+    background: url('immages/fontop.jfif') no-repeat;
+    height: 200px;
+    width: 100%;
+}
+#moi{
+    border-radius: 100px 100px 100px 100px;
+    position: absolute;
+    bottom: -125px;
+    left: 90px;
+    height: 200px;
+}
+#moi:hover{
+    box-shadow: 5px 5px 5px orange;
+}
+footer{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: orange;
+}
+#resaux{
+    width: 230px;
+    display: flex;
+    justify-content: space-around;
+}
+h1, h2{
+    color: orange;
+    font-weight: bold;
+    font-family: titre;
+    font-size: medium;
+}
+#a3 ul{
+    list-style: none;
+}
+#a4 img{
+    width: 175px;
+    height: 175px;
+}
+#s1{
+    width: 40%;
+    margin: auto;
+    padding: 150px 20px 50px 20px;
+    background-color: lightgray;
+
+}
+#ass:hover{
+    box-shadow: 10px 10px 10px orange;
+}
+#s2{
+    width: 60%;
+    margin: auto;
+    padding: 0px 0px 0px 40px;
+}
+#s2 li{
+    color:white;
+}
+#s2 li:hover{
+    color: black;
+    text-decoration: underline;
+}
+.corp{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+#nom{
+    padding-bottom: 20px;
+}
+#nom h1{
+    font-size: xx-large;
+    height: 10px;
+}
+#nom h3{
+    font-size: x-large;
+}
+p{
+    text-align: justify;
+}
+.sous{
+    display: none;
+    position: absolute;
+    width: auto;
+}
+.deroul::after {
+    content: "▼";
+    font-size: 12px;
+}
+#a2{
+    padding-bottom: 60px;
+}
+#a2 > ul li:hover .sous{
+    display: block;
+}
+a:hover{
+    text-shadow: 2px 2px 2px orange;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url(police/roboto/Roboto-Black.ttf);
+    src: url(police/roboto/Roboto-BlackItalic.ttf);
+    src: url(police/roboto/Roboto-BoldItalic.ttf);
+    src: url(police/roboto/Roboto-LightItalic.ttf);
+    src: url(police/roboto/Roboto-Thin.ttf);
+    src: url(police/roboto/Roboto-ThinItalic.ttf);
+    src: url(police/roboto/RobotoCondensed-Bold.ttf);
+    src: url(police/roboto/RobotoCondensed-BoldItalic.ttf);
+    src: url(police/roboto/RobotoCondensed-Italic.ttf);
+    src: url(police/roboto/RobotoCondensed-Light.ttf);
+    src: url(police/roboto/RobotoCondensed-LightItalic.ttf);
+    src: url(police/roboto/RobotoCondensed-Regular.ttf);
+
+}
+@font-face {
+    font-family: "titre";
+    src: url(police/titre/LeagueSpartan-Bold.otf);
+}
